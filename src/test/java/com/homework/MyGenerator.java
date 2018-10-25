@@ -58,6 +58,9 @@ public class MyGenerator {
 //        strategy.setNaming(NamingStrategy.remove_prefix_and_camel);// 表名生成策略
 //        strategy.setNaming(NamingStrategy.removePrefixAndCamel());// 表名生成策略
         strategy.setInclude(new String[]{"user"}); // 需要生成的表
+//        strategy.setInclude(new String[]{"category"}); // 需要生成的表
+//        strategy.setInclude(new String[]{"comment"}); // 需要生成的表
+//        strategy.setInclude(new String[]{"post"}); // 需要生成的表
 //        strategy.setExclude(new String[]{"t_rong_bid"}); // 排除生成的表
         // 字段名生成策略
         strategy.setNaming(NamingStrategy.underline_to_camel);
