@@ -11,5 +11,12 @@ spring:
     host: 120.27.218.132
     port: 6379
     password: qwer123321qwer
+  thymeleaf:
+        cache: false
+        mode: LEGACYHTML5
+  logging:
+    level:
+      root: INFO
+      org.springframework.web: DEBUG
 
 
